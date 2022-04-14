@@ -8,13 +8,10 @@
     --fiveColor: #343434d9;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body{
     background-color: var(--firstColor);
     font-family: 'Nunito', sans-serif;
+
 }
 .menu{
     opacity: 1
@@ -35,6 +32,13 @@ body{
 /*NavBar*/
 #icon{
     width:50px;
+}
+
+.containerMenu{
+    position:fixed;
+    z-index: 100;
+    top:0;
+    background-color: rgba(0,0,0,0.8);
 }
 
 .navbar{
@@ -66,10 +70,27 @@ body{
     text-decoration: none;
 }
 
+
 .listMenu .ind:hover{
     background-color: var(--secondColor);
-    color: var(--firstColor)    
+    color: var(--firstColor);
+    transition: background-color .5s ease-in-out;    
 }
+
+.listMenu .ind{
+    animation-name:  mianimacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes mianimacion{
+    0%{
+        transform:translate3d(calc(208% *2),0,0)
+    }
+}
+
+
+
 
 #imgNav{
  width:80px;
@@ -97,14 +118,135 @@ body{
 }
 
 
-
 /*Carrousel*/
-.carrousel .imgCarrousel img{
-    width:500px;
+.containerCarrousel {
+    margin-top: 100px;
+    justify-content: end;
+    align-items: center;
 }
-.carrousel .imgCarrousel{
-    width:200px;
-    margin: 100px 0px 150px 400px; 
+
+.carrousel{
+    margin-left:auto;
+    margin-right: auto;
+    align-items:center;
+    justify-content: center;
+    padding:30px;
+    position:relative;
+    max-width: 800px;
+    max-height:500px;
+    width:100%;
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+.slide{
+    display:flex;
+    transform: translate3d(0,0,0);
+    transition: all 600ms;
+    animation-name:  autoplay;
+    animation-duration: 6.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;   
+}
+
+.slide .item{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 105%;
+}
+
+.imgSmall{
+    position:absolute;
+    bottom:60px;
+    left:0;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+}
+
+.imgSmallItem{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    border:2px solid white;
+    width:16px;
+    height:16px;
+    border-radius: 5px;
+    overflow:hidden;
+    cursor:pointer;
+    background-color:rgba(255,255,255,0.5);
+    margin: 0 10px 0 0;
+    text-align: center;
+    transition:all 300ms;
+}
+
+.imgSmallItem:hover{
+    transform:scale(2);
+}
+
+.imgSmallItem img{
+    display:inline-block;
+    max-width: none;
+    height:100%;
+    transform: scale(1);
+    opacity:0;
+    transition: all 300ms;
+}
+
+.imgSmallItem:hover img{
+    opacity:1;
+    transform:scale(1);
+}
+
+input[id="1"]:checked ~ .slide{
+    animation:none;
+    transform: translate3d(0, 0, 0);
+}
+
+input[id="1"]:checked ~ .imgSmall .imgSmallItem[for="1"]{
+    background:white;
+}
+
+input[id="2"]:checked ~ .slide{
+    animation:none;
+    transform: translate3d(calc(-108% * 1), 0, 0);
+}
+
+input[id="2"]:checked ~ .imgSmall .imgSmallItem[for="2"]{
+    background:white;
+}
+
+input[id="3"]:checked ~ .slide{
+    animation:none;
+    transform: translate3d(calc(-108% *2), 0, 0);
+}
+
+input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
+    background:white;
+}
+
+@keyframes autoplay{
+    33%{
+        transform: translate3d(calc(-108% *0),0,0)
+    }
+    66%{
+        transform:translate3d(calc(-108% *1),0,0)
+    }
+    100%{
+        transform:translate3d(calc(-108% *2),0,0)
+    }
+}
+
+
+
+.carrousel img{
+    max-width: 100%;
 }
 
 
@@ -241,8 +383,9 @@ body{
 }
 
 .box__footer a:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
+
 
 .box__footer a .fab{
     font-size: 20px;
@@ -270,7 +413,7 @@ body{
 @media (max-width: 700px){
     .menu i{
         display: block;
-        position: absolute;
+        position: fixed;
     }
     .navbar{
         display: none;
@@ -279,7 +422,6 @@ body{
         display: block;
         border: 1px solid var(--secondColor);
         width: 200px;
-        position: absolute;
         top: 0;
         left: 0;
         background-color: var(--fiveColor);
@@ -294,6 +436,8 @@ body{
 
     .show{
         transform: translateX(-15px);
+        position: fixed;
+        z-index: 100;
     }
 
     .navbar ul.listMenu li{
