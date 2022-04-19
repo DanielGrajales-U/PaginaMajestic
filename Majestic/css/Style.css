@@ -323,14 +323,44 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     opacity: 0;
     transition: .8s;
 }
-
-.content h2, a{
+.cards .btn{
+    background-color: var(--secondColor);
+    padding: 10px;
+    border-radius:15px;
+    color: var(--firstColor);
+    font-size: 20px;
+}
+.content h2{
     color: rgba(255, 255,255, 0.8);
 }
 
 .card:hover .content{
     opacity: 1;
 }
+
+.apartados{
+    position:absolute;
+    top:0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.709);
+    margin-top: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.visible{
+    display: flex
+}
+
+.invisible{
+    display: none;
+}
+
+
 
 /*Footer*/
 .footer{
