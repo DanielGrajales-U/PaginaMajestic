@@ -2,14 +2,12 @@ document.querySelector(".menu").addEventListener("click", () => {
   document.querySelector(".navbarFloat").classList.toggle("show");
 });
 
-const products = document.getElementById("products");
+const products = document.querySelector(".products");
 
 const btnM = document.querySelector(".btnM");
-const camisasM = document.createElement("SECTION");
-camisasM.innerHTML += `<div>
+const camisasM = document.createElement("DIV");
+camisasM.innerHTML += `
   <h1>CamisetasM</h1>
-  <button class=btnAtras>atras</button>
-  <div class="pro">
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h2>Camisetas M</h2>
@@ -58,23 +56,21 @@ camisasM.innerHTML += `<div>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
-  </div>
-</div>`;
+  `;
 
-camisasM.classList.add("products");
-camisasM.classList.add("about");
+camisasM.classList.add("pro");
 
-const body = document.querySelector(".body");
+const pro = document.querySelector(".pro");
 
 btnM.addEventListener("click", () => {
-  body.replaceChild(camisasM, products);
+  products.replaceChild(camisasM, pro);
+  btnAtras.classList.add("active");
 });
 
 const btnL = document.querySelector(".btnL");
-const camisasL = document.createElement("SECTION");
-camisasL.innerHTML += `<div>
+const camisasL = document.createElement("DIV");
+camisasL.innerHTML += `
   <h1>CamisetasL</h1>
-  <div class="pro">
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h2>Camisetas M</h2>
@@ -123,21 +119,19 @@ camisasL.innerHTML += `<div>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
-  </div>
-</div>`;
+  `;
 
-camisasL.classList.add("products");
-camisasL.classList.add("about");
+camisasL.classList.add("pro");
 
 btnL.addEventListener("click", () => {
-  body.replaceChild(camisasL, products);
+  products.replaceChild(camisasL, pro);
+  btnAtras.classList.add("active");
 });
 
 const btnXL = document.querySelector(".btnXL");
-const camisasXL = document.createElement("SECTION");
-camisasXL.innerHTML += `<div>
+const camisasXL = document.createElement("DIV");
+camisasXL.innerHTML += `
   <h1>CamisetasXL</h1>
-  <div class="pro">
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h2>Camisetas M</h2>
@@ -186,21 +180,19 @@ camisasXL.innerHTML += `<div>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
-  </div>
-</div>`;
+  `;
 
-camisasXL.classList.add("products");
-camisasXL.classList.add("about");
+camisasXL.classList.add("pro");
 
 btnXL.addEventListener("click", () => {
-  body.replaceChild(camisasXL, products);
+  products.replaceChild(camisasXL, pro);
+  btnAtras.classList.add("active");
 });
 
 const btnXXL = document.querySelector(".btnXXL");
-const camisasXXL = document.createElement("SECTION");
-camisasXXL.innerHTML += `<div>
+const camisasXXL = document.createElement("DIV");
+camisasXXL.innerHTML += `
   <h1>CamisetasXXL</h1>
-  <div class="pro">
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h2>Camisetas M</h2>
@@ -249,21 +241,19 @@ camisasXXL.innerHTML += `<div>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
-  </div>
-</div>`;
+  `;
 
-camisasXXL.classList.add("products");
-camisasXXL.classList.add("about");
+camisasXXL.classList.add("pro");
 
 btnXXL.addEventListener("click", () => {
-  body.replaceChild(camisasXXL, products);
+  products.replaceChild(camisasXXL, pro);
+  btnAtras.classList.add("active");
 });
 
 const btnG = document.querySelector(".btnG");
-const gorras = document.createElement("SECTION");
-gorras.innerHTML += `<div>
-  <h1>Gorras</h1>
-  <div class="pro">
+const gorras = document.createElement("DIV");
+gorras.innerHTML += `
+  <h1>GORRAS</h1>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h2>Camisetas M</h2>
@@ -312,21 +302,19 @@ gorras.innerHTML += `<div>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
-  </div>
-</div>`;
+  `;
 
-gorras.classList.add("products");
-gorras.classList.add("about");
+gorras.classList.add("pro");
 
 btnG.addEventListener("click", () => {
-  body.replaceChild(gorras, products);
+  products.replaceChild(gorras, pro);
+  btnAtras.classList.add("active");
 });
 
 const btnJ = document.querySelector(".btnJ");
-const Jeans = document.createElement("SECTION");
-Jeans.innerHTML += `<div>
-  <h1>Jeans</h1>
-  <div class="pro">
+const jeans = document.createElement("DIV");
+jeans.innerHTML += `
+  <h1>JEANS</h1>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h2>Camisetas M</h2>
@@ -375,19 +363,43 @@ Jeans.innerHTML += `<div>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
-  </div>
-</div>`;
+  `;
 
-Jeans.classList.add("products");
-Jeans.classList.add("about");
+jeans.classList.add("pro");
 
 btnJ.addEventListener("click", () => {
-  body.replaceChild(Jeans, products);
+  products.replaceChild(jeans, pro);
+  btnAtras.classList.add("active");
 });
 
 const btnAtras = document.querySelector(".btnAtras");
-console.log(btnAtras);
 
 btnAtras.addEventListener("click", () => {
-  body.replaceChild(products, camisasM);
+  products.replaceChild(pro, camisasM);
+  btnAtras.classList.remove("active");
+});
+
+btnAtras.addEventListener("click", () => {
+  products.replaceChild(pro, camisasL);
+  btnAtras.classList.remove("active");
+});
+
+btnAtras.addEventListener("click", () => {
+  products.replaceChild(pro, camisasXL);
+  btnAtras.classList.remove("active");
+});
+
+btnAtras.addEventListener("click", () => {
+  products.replaceChild(pro, camisasXXL);
+  btnAtras.classList.remove("active");
+});
+
+btnAtras.addEventListener("click", () => {
+  products.replaceChild(pro, gorras);
+  btnAtras.classList.remove("active");
+});
+
+btnAtras.addEventListener("click", () => {
+  products.replaceChild(pro, jeans);
+  btnAtras.classList.remove("active");
 });

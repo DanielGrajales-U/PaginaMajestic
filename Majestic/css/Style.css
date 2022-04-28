@@ -284,6 +284,13 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     padding:100px;
 }
 
+.btnAtras{
+    display: none
+}
+
+.active{
+    display: block;
+}
 .pro{
     margin-top: 40px;
     text-align: center;
@@ -293,6 +300,8 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
+
+
 
 /*cardas*/
 .cards{
