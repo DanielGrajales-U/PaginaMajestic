@@ -285,8 +285,13 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
 }
 
 .btnAtras{
-    display: none
+    display: none;
+    background-color: var(--secondColor);
+    cursor: pointer;
 }
+
+
+
 
 .active{
     display: block;
@@ -301,6 +306,10 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     grid-auto-rows: minmax(100px, auto);
 }
 
+.pro h2{
+    color: var(--secondColor);
+    margin-right: 1000px;
+}
 
 
 /*cardas*/
@@ -339,7 +348,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     color: var(--firstColor);
     font-size: 20px;
 }
-.content h2{
+.content h3{
     color: rgba(255, 255,255, 0.8);
 }
 
@@ -450,6 +459,10 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
 }
 
 /*Media querys*/
+@media (max-width:1074px){
+
+}
+
 @media (max-width: 700px){
     .menu i{
         display: block;
@@ -459,7 +472,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
         display: none;
     }
     .navbarFloat{
-        display: block;
+        display: flex;
         border: 1px solid var(--secondColor);
         width: 200px;
         top: 0;
@@ -469,10 +482,10 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
         transform: translateX(-20px,);
         padding: 30px;
         opacity: 0.9;
+        position: absolute;
         transform: translateX(-300px);
         transition: transform 0.5s ease-in-out;
     }
-    
 
     .show{
         transform: translateX(-15px);

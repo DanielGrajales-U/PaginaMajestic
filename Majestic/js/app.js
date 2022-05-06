@@ -7,52 +7,52 @@ const products = document.querySelector(".products");
 const btnM = document.querySelector(".btnM");
 const camisasM = document.createElement("DIV");
 camisasM.innerHTML += `
-  <h1>CamisetasM</h1>
+  <h2>CamisetasM</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
@@ -70,52 +70,52 @@ btnM.addEventListener("click", () => {
 const btnL = document.querySelector(".btnL");
 const camisasL = document.createElement("DIV");
 camisasL.innerHTML += `
-  <h1>CamisetasL</h1>
+  <h2>CamisetasL</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
@@ -131,52 +131,52 @@ btnL.addEventListener("click", () => {
 const btnXL = document.querySelector(".btnXL");
 const camisasXL = document.createElement("DIV");
 camisasXL.innerHTML += `
-  <h1>CamisetasXL</h1>
+  <h2>CamisetasXL</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
@@ -192,52 +192,52 @@ btnXL.addEventListener("click", () => {
 const btnXXL = document.querySelector(".btnXXL");
 const camisasXXL = document.createElement("DIV");
 camisasXXL.innerHTML += `
-  <h1>CamisetasXXL</h1>
+  <h2>CamisetasXXL</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
@@ -253,52 +253,52 @@ btnXXL.addEventListener("click", () => {
 const btnG = document.querySelector(".btnG");
 const gorras = document.createElement("DIV");
 gorras.innerHTML += `
-  <h1>GORRAS</h1>
+  <h2>GORRAS</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
@@ -314,52 +314,52 @@ btnG.addEventListener("click", () => {
 const btnJ = document.querySelector(".btnJ");
 const jeans = document.createElement("DIV");
 jeans.innerHTML += `
-  <h1>JEANS</h1>
+  <h2>JEANS</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
-      <h2>Camisetas M</h2>
+      <h1>Camisetas M</h1>
       <button class="btn btnM">Ver mas</button>
   </div>
 </div>
