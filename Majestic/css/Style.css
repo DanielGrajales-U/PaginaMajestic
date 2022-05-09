@@ -288,6 +288,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     display: none;
     background-color: var(--secondColor);
     cursor: pointer;
+    padding:10px
 }
 
 
@@ -311,6 +312,10 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     margin-right: 1000px;
 }
 
+@keyframes animate {
+    
+    
+}
 
 /*cardas*/
 .cards{

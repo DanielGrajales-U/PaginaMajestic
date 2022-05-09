@@ -59,6 +59,8 @@ camisasM.innerHTML += `
   `;
 
 camisasM.classList.add("pro");
+camisasM.setAttribute("data-aos", "fade-left");
+camisasM.setAttribute("data-aos-duration", "800");
 
 const pro = document.querySelector(".pro");
 
@@ -122,6 +124,8 @@ camisasL.innerHTML += `
   `;
 
 camisasL.classList.add("pro");
+camisasL.setAttribute("data-aos", "fade-left");
+camisasL.setAttribute("data-aos-duration", "800");
 
 btnL.addEventListener("click", () => {
   products.replaceChild(camisasL, pro);
@@ -183,6 +187,8 @@ camisasXL.innerHTML += `
   `;
 
 camisasXL.classList.add("pro");
+camisasXL.setAttribute("data-aos", "fade-left");
+camisasXL.setAttribute("data-aos-duration", "800");
 
 btnXL.addEventListener("click", () => {
   products.replaceChild(camisasXL, pro);
@@ -244,6 +250,8 @@ camisasXXL.innerHTML += `
   `;
 
 camisasXXL.classList.add("pro");
+camisasXXL.setAttribute("data-aos", "fade-left");
+camisasXXL.setAttribute("data-aos-duration", "800");
 
 btnXXL.addEventListener("click", () => {
   products.replaceChild(camisasXXL, pro);
@@ -305,6 +313,8 @@ gorras.innerHTML += `
   `;
 
 gorras.classList.add("pro");
+gorras.setAttribute("data-aos", "fade-left");
+gorras.setAttribute("data-aos-duration", "800");
 
 btnG.addEventListener("click", () => {
   products.replaceChild(gorras, pro);
@@ -366,6 +376,8 @@ jeans.innerHTML += `
   `;
 
 jeans.classList.add("pro");
+jeans.setAttribute("data-aos", "fade-left");
+jeans.setAttribute("data-aos-duration", "800");
 
 btnJ.addEventListener("click", () => {
   products.replaceChild(jeans, pro);
