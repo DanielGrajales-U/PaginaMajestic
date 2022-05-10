@@ -465,10 +465,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
 
 /*Media querys*/
 @media (max-width:1074px){
-
-}
-
-@media (max-width: 700px){
+    
     .menu i{
         display: block;
         position: fixed;
@@ -503,15 +500,38 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
         font-size:12px;
     }
 
+    .containerCarrousel{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 700px){
+
     .products{
         background-color: var(--firstColor);
         border: none;
         text-align: center;
         box-shadow: 1px 1ox var(--secondColor);
+        align-items: center;
+        padding:10px
+    }
+    .navbarFloat li{
+        width:170px
     }
     .cards{
         text-align: center;
         box-shadow: 1px 1px 15px var(--secondColor);
+    }
+
+    .containerCarrousel{
+        
+        margin-bottom: 50px;
+    }
+    .carrousel{
+        max-width: 400px;
+        max-height:500px;
     }
 
     
