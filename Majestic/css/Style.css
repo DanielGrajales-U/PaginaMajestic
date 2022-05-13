@@ -307,10 +307,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     grid-auto-rows: minmax(100px, auto);
 }
 
-.pro h2{
-    color: var(--secondColor);
-    margin-right: 1000px;
-}
+
 
 @keyframes animate {
     
@@ -352,7 +349,14 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     border-radius:15px;
     color: var(--firstColor);
     font-size: 20px;
+    cursor: pointer;
 }
+    
+.cards h2{
+    color: var(--secondColor);
+    width: 200px;
+}
+
 .content h3{
     color: rgba(255, 255,255, 0.8);
 }
@@ -504,8 +508,10 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
         margin-top: 50px;
         margin-bottom: 50px;
     }
+   
 
 }
+
 
 @media (max-width: 700px){
 

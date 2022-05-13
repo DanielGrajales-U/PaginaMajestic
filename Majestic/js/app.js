@@ -7,7 +7,6 @@ const products = document.querySelector(".products");
 const btnM = document.querySelector(".btnM");
 const camisasM = document.createElement("DIV");
 camisasM.innerHTML += `
-  <h2>CamisetasM</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h1>Camisetas M</h1>
@@ -58,7 +57,7 @@ camisasM.innerHTML += `
 </div>
   `;
 
-camisasM.classList.add("pro");
+camisasM.classList.add("cards");
 camisasM.setAttribute("data-aos", "fade-left");
 camisasM.setAttribute("data-aos-duration", "800");
 
@@ -72,7 +71,6 @@ btnM.addEventListener("click", () => {
 const btnL = document.querySelector(".btnL");
 const camisasL = document.createElement("DIV");
 camisasL.innerHTML += `
-  <h2>CamisetasL</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h1>Camisetas M</h1>
@@ -123,7 +121,7 @@ camisasL.innerHTML += `
 </div>
   `;
 
-camisasL.classList.add("pro");
+camisasL.classList.add("cards");
 camisasL.setAttribute("data-aos", "fade-left");
 camisasL.setAttribute("data-aos-duration", "800");
 
@@ -135,7 +133,6 @@ btnL.addEventListener("click", () => {
 const btnXL = document.querySelector(".btnXL");
 const camisasXL = document.createElement("DIV");
 camisasXL.innerHTML += `
-  <h2>CamisetasXL</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h1>Camisetas M</h1>
@@ -186,7 +183,7 @@ camisasXL.innerHTML += `
 </div>
   `;
 
-camisasXL.classList.add("pro");
+camisasXL.classList.add("cards");
 camisasXL.setAttribute("data-aos", "fade-left");
 camisasXL.setAttribute("data-aos-duration", "800");
 
@@ -198,7 +195,6 @@ btnXL.addEventListener("click", () => {
 const btnXXL = document.querySelector(".btnXXL");
 const camisasXXL = document.createElement("DIV");
 camisasXXL.innerHTML += `
-  <h2>CamisetasXXL</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h1>Camisetas M</h1>
@@ -249,7 +245,7 @@ camisasXXL.innerHTML += `
 </div>
   `;
 
-camisasXXL.classList.add("pro");
+camisasXXL.classList.add("cards");
 camisasXXL.setAttribute("data-aos", "fade-left");
 camisasXXL.setAttribute("data-aos-duration", "800");
 
@@ -261,7 +257,6 @@ btnXXL.addEventListener("click", () => {
 const btnG = document.querySelector(".btnG");
 const gorras = document.createElement("DIV");
 gorras.innerHTML += `
-  <h2>GORRAS</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h1>Camisetas M</h1>
@@ -312,7 +307,7 @@ gorras.innerHTML += `
 </div>
   `;
 
-gorras.classList.add("pro");
+gorras.classList.add("cards");
 gorras.setAttribute("data-aos", "fade-left");
 gorras.setAttribute("data-aos-duration", "800");
 
@@ -324,7 +319,6 @@ btnG.addEventListener("click", () => {
 const btnJ = document.querySelector(".btnJ");
 const jeans = document.createElement("DIV");
 jeans.innerHTML += `
-  <h2>JEANS</h2>
   <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
   <div class="content" >
       <h1>Camisetas M</h1>
@@ -375,7 +369,7 @@ jeans.innerHTML += `
 </div>
   `;
 
-jeans.classList.add("pro");
+jeans.classList.add("cards");
 jeans.setAttribute("data-aos", "fade-left");
 jeans.setAttribute("data-aos-duration", "800");
 
