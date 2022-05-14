@@ -62,9 +62,10 @@ camisasM.setAttribute("data-aos", "fade-left");
 camisasM.setAttribute("data-aos-duration", "800");
 
 const pro = document.querySelector(".pro");
+const cards = document.querySelector(".cards");
 
 btnM.addEventListener("click", () => {
-  products.replaceChild(camisasM, pro);
+  pro.replaceChild(camisasM, cards);
   btnAtras.classList.add("active");
 });
 
@@ -126,7 +127,7 @@ camisasL.setAttribute("data-aos", "fade-left");
 camisasL.setAttribute("data-aos-duration", "800");
 
 btnL.addEventListener("click", () => {
-  products.replaceChild(camisasL, pro);
+  pro.replaceChild(camisasL, cards);
   btnAtras.classList.add("active");
 });
 
@@ -188,7 +189,7 @@ camisasXL.setAttribute("data-aos", "fade-left");
 camisasXL.setAttribute("data-aos-duration", "800");
 
 btnXL.addEventListener("click", () => {
-  products.replaceChild(camisasXL, pro);
+  pro.replaceChild(camisasXL, cards);
   btnAtras.classList.add("active");
 });
 
@@ -250,7 +251,7 @@ camisasXXL.setAttribute("data-aos", "fade-left");
 camisasXXL.setAttribute("data-aos-duration", "800");
 
 btnXXL.addEventListener("click", () => {
-  products.replaceChild(camisasXXL, pro);
+  pro.replaceChild(camisasXXL, cards);
   btnAtras.classList.add("active");
 });
 
@@ -312,7 +313,7 @@ gorras.setAttribute("data-aos", "fade-left");
 gorras.setAttribute("data-aos-duration", "800");
 
 btnG.addEventListener("click", () => {
-  products.replaceChild(gorras, pro);
+  pro.replaceChild(gorras, cards);
   btnAtras.classList.add("active");
 });
 
@@ -374,38 +375,47 @@ jeans.setAttribute("data-aos", "fade-left");
 jeans.setAttribute("data-aos-duration", "800");
 
 btnJ.addEventListener("click", () => {
-  products.replaceChild(jeans, pro);
+  pro.replaceChild(jeans, cards);
   btnAtras.classList.add("active");
 });
 
 const btnAtras = document.querySelector(".btnAtras");
+function setTimeout() {
+  console.clear(), 1000;
+}
 
 btnAtras.addEventListener("click", () => {
-  products.replaceChild(pro, camisasM);
+  pro.replaceChild(cards, camisasM);
   btnAtras.classList.remove("active");
+  setTimeout();
 });
 
 btnAtras.addEventListener("click", () => {
-  products.replaceChild(pro, camisasL);
+  pro.replaceChild(cards, camisasL);
   btnAtras.classList.remove("active");
+  setTimeout();
 });
 
 btnAtras.addEventListener("click", () => {
-  products.replaceChild(pro, camisasXL);
+  pro.replaceChild(cards, camisasXL);
   btnAtras.classList.remove("active");
+  setTimeout();
 });
 
 btnAtras.addEventListener("click", () => {
-  products.replaceChild(pro, camisasXXL);
+  pro.replaceChild(cards, camisasXXL);
   btnAtras.classList.remove("active");
+  setTimeout();
 });
 
 btnAtras.addEventListener("click", () => {
-  products.replaceChild(pro, gorras);
+  pro.replaceChild(cards, gorras);
   btnAtras.classList.remove("active");
+  setTimeout();
 });
 
 btnAtras.addEventListener("click", () => {
-  products.replaceChild(pro, jeans);
+  pro.replaceChild(cards, jeans);
   btnAtras.classList.remove("active");
+  setTimeout();
 });

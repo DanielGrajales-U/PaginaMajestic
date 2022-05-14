@@ -363,6 +363,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
 
 .card:hover .content{
     opacity: 1;
+    border-radius: 10px;
 }
 
 .apartados{
@@ -516,10 +517,9 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
 @media (max-width: 700px){
 
     .products{
-        background-color: var(--firstColor);
+        background-color: rgba(5, 4, 4, 0.632);
         border: none;
         text-align: center;
-        box-shadow: 1px 1ox var(--secondColor);
         align-items: center;
         padding:10px
     }
@@ -528,7 +528,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     }
     .cards{
         text-align: center;
-        box-shadow: 1px 1px 15px var(--secondColor);
+        border-radius:15px;
     }
 
     .containerCarrousel{
