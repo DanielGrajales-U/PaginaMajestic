@@ -7,55 +7,47 @@ const products = document.querySelector(".products");
 const btnM = document.querySelector(".btnM");
 const camisasM = document.createElement("DIV");
 camisasM.innerHTML += `
-  <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
 </div>
-  `;
+</div>
+`;
 
 camisasM.classList.add("cards");
 camisasM.setAttribute("data-aos", "fade-left");
@@ -72,55 +64,47 @@ btnM.addEventListener("click", () => {
 const btnL = document.querySelector(".btnL");
 const camisasL = document.createElement("DIV");
 camisasL.innerHTML += `
-  <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
 </div>
-  `;
+</div>
+`;
 
 camisasL.classList.add("cards");
 camisasL.setAttribute("data-aos", "fade-left");
@@ -134,55 +118,47 @@ btnL.addEventListener("click", () => {
 const btnXL = document.querySelector(".btnXL");
 const camisasXL = document.createElement("DIV");
 camisasXL.innerHTML += `
-  <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
 </div>
-  `;
+</div>
+`;
 
 camisasXL.classList.add("cards");
 camisasXL.setAttribute("data-aos", "fade-left");
@@ -195,56 +171,48 @@ btnXL.addEventListener("click", () => {
 
 const btnXXL = document.querySelector(".btnXXL");
 const camisasXXL = document.createElement("DIV");
-camisasXXL.innerHTML += `
-  <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+camisasXXL.innerHTML+= `
+<div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
 </div>
-  `;
+</div>
+`;
 
 camisasXXL.classList.add("cards");
 camisasXXL.setAttribute("data-aos", "fade-left");
@@ -257,56 +225,48 @@ btnXXL.addEventListener("click", () => {
 
 const btnG = document.querySelector(".btnG");
 const gorras = document.createElement("DIV");
-gorras.innerHTML += `
-  <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+gorras.innerHTML+= `
+<div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
 </div>
-  `;
+</div>
+`;
 
 gorras.classList.add("cards");
 gorras.setAttribute("data-aos", "fade-left");
@@ -320,55 +280,47 @@ btnG.addEventListener("click", () => {
 const btnJ = document.querySelector(".btnJ");
 const jeans = document.createElement("DIV");
 jeans.innerHTML += `
-  <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
+</div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
-  <div class="content" >
-      <h1>Camisetas M</h1>
-      <button class="btn btnM">Ver mas</button>
-  </div>
+<div class="content" >
+<img src="./images/logo.jpg" class="alreves">
 </div>
-  `;
+</div>
+`;
 
 jeans.classList.add("cards");
 jeans.setAttribute("data-aos", "fade-left");
@@ -419,3 +371,4 @@ btnAtras.addEventListener("click", () => {
   btnAtras.classList.remove("active");
   setTimeout();
 });
+

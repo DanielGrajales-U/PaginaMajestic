@@ -43,7 +43,6 @@ body{
 
 .navbar{
     display: inline;
-    opacity: 0;
 }
 
 .listMenu li{
@@ -359,6 +358,11 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
 
 .content h3{
     color: rgba(255, 255,255, 0.8);
+}
+
+.content .alreves{
+    width: 100%;
+    height: 100%;;
 }
 
 .card:hover .content{
