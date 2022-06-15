@@ -1,4 +1,6 @@
-document.querySelector(".menu").addEventListener("click", () => {
+const menu = document.querySelector(".menu");
+
+menu.addEventListener("click", () => {
   document.querySelector(".navbarFloat").classList.toggle("show");
 });
 
@@ -9,7 +11,7 @@ const camisasM = document.createElement("DIV");
 camisasM.innerHTML += `
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
 <div class="content" >
-<img src="./images/logo.jpg" class="alreves">
+<img src="./images/buso2.jpg" class="alreves">
 </div>
 </div>
 <div class="card" style="--i:url(/Majestic/images/buso1.jpg)">
@@ -372,3 +374,7 @@ btnAtras.addEventListener("click", () => {
   setTimeout();
 });
 
+//scrollvar
+addEventListener("scroll",()=>{
+  
+})

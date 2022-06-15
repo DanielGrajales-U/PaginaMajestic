@@ -127,6 +127,7 @@ body{
 .carrousel{
     margin-left:auto;
     margin-right: auto;
+    margin-bottom: 50px;
     align-items:center;
     justify-content: center;
     padding:30px;
@@ -265,6 +266,7 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
 .about h1{
     color: var(--secondColor)
 }
+
 .content{
     text-align: center;
     
@@ -274,7 +276,6 @@ input[id="3"]:checked ~ .imgSmall .imgSmallItem[for="3"]{
     color: var(--threeColor);
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
 
