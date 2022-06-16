@@ -1,4 +1,5 @@
 const menu = document.querySelector(".menu");
+const containerMenu = document.querySelector(".containerMenu");
 
 menu.addEventListener("click", () => {
   document.querySelector(".navbarFloat").classList.toggle("show");
@@ -375,6 +376,13 @@ btnAtras.addEventListener("click", () => {
 });
 
 //scrollvar
-addEventListener("scroll",()=>{
-  
-})
+let inicioScroll = window.pageYOffset;
+window.onscroll = ()=>{
+  let desplazamiento = window.pageYOffset;
+  if(inicioScroll >= desplazamiento){
+    containerMenu.style.top = '0'
+  }else{
+    containerMenu.style.top = '-110px'
+  }
+  inicioScroll = desplazamiento
+}
